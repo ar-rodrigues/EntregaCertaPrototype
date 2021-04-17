@@ -7,7 +7,6 @@ import About from "./About";
 import Contact from "./Contact";
 
 function App() {
-  
   return (
     <main>
       <Navbar />
@@ -17,7 +16,11 @@ function App() {
         <Experiences />
       </div>
       <footer>
-        <h4>{"</> Criado por Alisson Rodrigues </>"}</h4>
+        <h4>
+          <a href="http://alisson-rodrigues.netlify.app/">
+            {"</> Criado por Alisson Rodrigues </>"}
+          </a>
+        </h4>
       </footer>
     </main>
   );
