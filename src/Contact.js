@@ -99,7 +99,7 @@ function Contact() {
             pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
             required
           />
-          
+
           <label htmlFor="address" id="address" className="form-label">
             CEP:
           </label>
@@ -110,7 +110,7 @@ function Contact() {
             onChange={(e) => handleChange(e)}
             className="form-input"
             name="address"
-            placeholder="00000-000"
+            placeholder="00000000"
             required
           />
         </div>
