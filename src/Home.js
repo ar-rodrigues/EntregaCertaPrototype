@@ -1,7 +1,8 @@
 import React from "react";
 
 function Home() {
-  const imageBgTwo = "/back-to-work.jpg";
+  const imageBgTwo =
+    "/161211-flexibilidade-logistica-entenda-o-que-e-e-saiba-como-implementar.jpg";
   return (
     <header
       id="home"
