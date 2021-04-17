@@ -10,7 +10,7 @@ const encode = (data) => {
 function ContactPoint() {
   const [fields, setFields] = useState({
     data: "",
-    company: "",
+    name: "",
     email: "",
     address: "",
     message: ""
@@ -31,7 +31,7 @@ function ContactPoint() {
       .then(() =>
         setFields({
           data: "",
-          company: "",
+          name: "",
           email: "",
           address: "",
           message: ""
@@ -71,16 +71,16 @@ function ContactPoint() {
             />
           </div>
           <input type="hidden" name="form-name" value="contact" />
-          <label htmlFor="company" id="company" className="form-label">
+          <label htmlFor="name" id="name" className="form-label">
             Nome da Empresa:
           </label>
           <input
             type="text"
-            id="company"
-            value={fields.company}
+            id="name"
+            value={fields.name}
             onChange={(e) => handleChange(e)}
             className="form-input"
-            name="company"
+            name="name"
             placeholder="digite  aqui o nome de sua empresa"
             required
           />
